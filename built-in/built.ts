@@ -13,8 +13,11 @@
 // // console.log(fullName.split(" "));
 // console.log(fullName.toLowerCase());
 // console.log(fullName.toUpperCase());
-function display():void{
-    console.log("I am display");
-}
-display();
-
+// function display():void{
+//     console.log("I am display");
+// }
+// display();
+function subtract(num1:number, num2:number) {
+    return num1 - num2;
+}   
+console.log(subtract(10, 5));
