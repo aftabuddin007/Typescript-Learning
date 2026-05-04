@@ -10,4 +10,9 @@ users.push(user1);
 let user2;
 user2 = { userName: "qure", age: 92 };
 users.push(user2);
-console.log(users);
+let getRequest;
+getRequest = "GET";
+function requestHandler(requestType) {
+    console.log(requestType);
+}
+requestHandler("GET");

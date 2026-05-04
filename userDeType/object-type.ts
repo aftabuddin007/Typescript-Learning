@@ -11,4 +11,14 @@ users.push(user1)
 let user2:User
 user2 = {userName:"qure",age:92}
 users.push(user2)
-console.log(users);
+// console.log(users);
+
+type RequestType = "GET"| "POST";
+
+let getRequest:RequestType;
+getRequest = "GET";
+
+function requestHandler(requestType:RequestType){
+console.log(requestType);
+}
+requestHandler("GET")
